@@ -14,7 +14,7 @@ public class Conexao {
 			Class.forName("org.postgresql.Driver");
 			//referencia para um objeto de conexao
 			con = DriverManager.getConnection(
-					"postgres://wrhjnjksobijtb:A5tKOcHLWaEzffdIxCkYIXX-dp@ec2-54-235-202-71.compute-1.amazonaws.com:5432/d5fdvh38g1mnrc",
+					"jdbc:postgresql://ec2-54-235-202-71.compute-1.amazonaws.com:5432/d5fdvh38g1mnrc",
 					"wrhjnjksobijtb", "A5tKOcHLWaEzffdIxCkYIXX-dp");
 			
 			System.out.println("Conectado!");
